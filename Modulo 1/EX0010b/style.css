@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(69, 69, 69);
+    font: 13pt Arial;
+    
+}
+
+h1 {
+    color: darkgoldenrod;
+    
+}
+
+h2 {
+    color: rgb(125, 92, 8);
+}
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none ;
+}
