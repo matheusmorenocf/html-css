@@ -12,18 +12,22 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
-            
-            
         }
         thead, tfoot{
             background-color: gray;
             color:white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
         td, th{
             border: 1px solid black;
@@ -32,9 +36,12 @@
         .num{
             text-align: right;
         }
-        tr:hover{
-            background-color: green;
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
+        /*tr:hover{
+            background-color: green;
+        }*/
     </style>
 </head>
 <body>
