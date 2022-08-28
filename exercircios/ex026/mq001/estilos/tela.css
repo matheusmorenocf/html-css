@@ -30,7 +30,7 @@ menu li{
     padding: 10px;
 }
 article{
-    width: 600px;
+    max-width: 600px;
     display: block;
     margin: auto;
 }
